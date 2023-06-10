@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-27 23:24:55 --> Invalid file: common/header.php
+#0 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('common/header.p...')
+#1 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('common/header.p...', Array, true)
+#2 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\xampp\htdocs\apptopup\ci\app\Controllers\Home.php(10): view('home/index', Array)
+#4 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\apptopup\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

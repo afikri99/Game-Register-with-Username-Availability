@@ -1,0 +1,30 @@
+CRITICAL - 2022-04-28 02:03:52 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\apptopup\ci\app\Controllers\Home.php(8): redirect('home')
+#3 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apptopup\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-28 02:03:53 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\apptopup\ci\app\Controllers\Home.php(8): redirect('home')
+#3 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apptopup\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-28 02:04:16 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\apptopup\ci\app\Controllers\Home.php(8): redirect('http://localhos...')
+#3 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apptopup\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\apptopup\ci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

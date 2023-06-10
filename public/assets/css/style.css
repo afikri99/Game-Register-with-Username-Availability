@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    background: url("../../bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+#card-register{
+    border: 1px solid rgb(88, 88, 88);
+}
+.form-control{
+    background-color: transparent;
+    border:0px;
+    color:white;
+    border-bottom:1px solid black;
+    font-size:18px;
+}
+label[for="floatingInput"],label[for="floatingPassword"]{
+   color:rgb(129, 129, 129) 
+}
+form #website{ display:none; }
+

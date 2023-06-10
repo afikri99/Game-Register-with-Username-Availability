@@ -1,0 +1,880 @@
+ERROR - 2022-06-16 01:30:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-16 01:30:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#2 C:\xampp\htdocs\fikri\cspb\app\Models\RegisterModel.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(36): App\Models\RegisterModel->register_user(Array)
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 01:30:27 --> Undefined property: App\Controllers\Home::$session
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 01:31:51 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 01:34:52 --> Undefined variable: session
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\home\success.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home/success', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(24): view('home/success', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->success()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 01:41:07 --> Undefined variable: session
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 01:48:48 --> Undefined index: message
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->success()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 01:48:49 --> Undefined index: message
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->success()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 01:48:49 --> Undefined index: message
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->success()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 01:49:15 --> Undefined index: message
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->success()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 01:50:04 --> Undefined variable: message
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\home\success.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home/success', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(28): view('home/success', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->success()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 01:50:26 --> Undefined variable: message
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\home\success.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home/success', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(28): view('home/success', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->success()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 01:50:27 --> Undefined variable: message
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\home\success.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home/success', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(28): view('home/success', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->success()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 01:50:27 --> Undefined variable: message
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\home\success.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home/success', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(28): view('home/success', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->success()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 01:53:01 --> Use of undefined constant auto - assumed 'auto' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\fikri\cspb\app\Config\Routes.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(713): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:11:08 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:11:38 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:12:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:12:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:12:23 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$result
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:13:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:14:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::Result()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:15:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result()
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(31): App\Models\RegisterModel->checknick()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:15:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(31): App\Models\RegisterModel->checknick()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:15:51 --> Call to undefined method App\Models\RegisterModel::getResult
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:15:59 --> Call to undefined method App\Models\RegisterModel::getResult
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:16:31 --> Call to undefined method App\Models\RegisterModel::getResult
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:16:34 --> Call to undefined method App\Models\RegisterModel::getResult
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:16:53 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:17:12 --> Call to undefined method App\Models\RegisterModel::getResult
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:17:25 --> Call to undefined method App\Models\RegisterModel::Result
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('Result', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:20:03 --> Call to undefined method App\Models\RegisterModel::Result
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('Result', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:20:16 --> Call to undefined method App\Models\RegisterModel::Result
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('Result', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:20:23 --> Call to undefined method App\Models\RegisterModel::Result
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('Result', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:20:55 --> Call to undefined method App\Models\RegisterModel::getResult
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:21:24 --> Call to undefined method App\Models\RegisterModel::Results
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('Results', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:21:28 --> Call to undefined method App\Models\RegisterModel::dump
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('dump', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:22:28 --> Call to undefined method App\Models\RegisterModel::dump
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('dump', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:22:40 --> Call to undefined method App\Models\RegisterModel::getResultArray
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:22:55 --> Call to undefined method App\Models\RegisterModel::getResultObject
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:23:29 --> Call to undefined method App\Models\RegisterModel::getResultObject
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:23:32 --> Call to undefined method App\Models\RegisterModel::getResultObject
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:23:53 --> Call to undefined method App\Models\RegisterModel::getResultObject
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:24:00 --> Call to undefined method App\Models\RegisterModel::getResultObject
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:24:45 --> Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:26:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::Result()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:26:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:26:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:26:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:26:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:26:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:27:20 --> Undefined property: App\Controllers\Home::$db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:27:48 --> Undefined property: App\Controllers\Home::$db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:27:59 --> Undefined property: App\Controllers\Home::$db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:28:00 --> Undefined property: App\Controllers\Home::$db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:28:57 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:29:13 --> Undefined variable: db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:29:13 --> Undefined variable: db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:29:14 --> Undefined variable: db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:29:14 --> Undefined variable: db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 03:29:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:29:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:30:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 03:30:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 04:53:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-16 04:54:44 --> Undefined variable: query
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\proses\checkuser.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...')
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 04:55:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#3 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 04:55:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#3 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 04:55:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#3 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 04:55:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::freeResult()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#3 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 04:55:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::freeResult()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#3 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 04:55:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::freeResult()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#3 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 04:56:36 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#3 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 04:59:18 --> Trying to get property 'auth' of non-object
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\proses\checkuser.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 04:59:23 --> syntax error, unexpected ')', expecting ';' or ','
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#2 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-16 04:59:25 --> Trying to get property 'auth' of non-object
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\proses\checkuser.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 04:59:31 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$auth
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\proses\checkuser.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 05:00:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::Result()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#3 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 05:01:04 --> Undefined variable: value
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\proses\checkuser.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 05:01:14 --> Trying to get property 'auth' of non-object
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\proses\checkuser.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 05:01:42 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\proses\checkuser.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 05:01:46 --> Array to string conversion
+#0 C:\xampp\htdocs\fikri\cspb\app\Views\proses\checkuser.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#4 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-16 05:02:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#3 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 05:02:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('proses/checkuse...', Array, true)
+#3 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): view('proses/checkuse...', Array)
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 05:18:51 --> Undefined index: auth
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 05:18:56 --> Undefined index: auth
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 05:19:10 --> Undefined index: auth
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-16 05:29:00 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 05:29:03 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-16 05:39:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->test()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-16 05:43:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-16 05:43:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('select lower(au...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-06-16 05:43:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-16 05:43:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('select lower(au...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-06-16 05:43:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-16 05:43:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('select lower(au...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-06-16 05:43:34 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-16 05:43:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('select lower(au...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-06-16 05:43:38 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-16 05:43:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('select lower(au...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-06-16 05:43:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-16 05:43:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('select lower(au...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-06-16 05:43:46 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-16 05:43:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('select lower(au...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

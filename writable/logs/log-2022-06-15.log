@@ -1,0 +1,431 @@
+CRITICAL - 2022-06-15 09:46:04 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\fikri\cspb\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-06-15 06:35:50 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-15 06:37:24 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-15 06:37:28 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-15 06:38:21 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-15 06:38:28 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 06:38:46 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-15 06:38:50 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 06:58:28 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 06:58:36 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 06:58:44 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 07:00:31 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 10:43:19 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 10:43:53 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 10:44:42 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 10:44:49 --> Undefined variable: m_register
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 10:45:54 --> Undefined variable: m_register
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 10:46:18 --> Undefined variable: m_register
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 10:47:41 --> Undefined variable: m_register
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 10:48:02 --> Undefined variable: m_register
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-15 10:48:15 --> Unknown column 'passowrd' in 'field list'
+ERROR - 2022-06-15 10:48:47 --> Unknown column 'passowrd' in 'field list'
+ERROR - 2022-06-15 10:49:05 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 10:49:05 --> Call to a member function result() on bool
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(25): App\Models\Mregister->register_user('Thefik', '2b9b2c591f363d2...', 'z', 'a', '2022-06-15 10:4...')
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-15 10:49:10 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 10:49:10 --> Trying to get property 'db' of non-object
+#0 C:\xampp\htdocs\fikri\cspb\app\Models\Mregister.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(25): App\Models\Mregister->register_user('Thefik', '2b9b2c591f363d2...', 'z', 'a', '2022-06-15 10:4...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-06-15 10:49:16 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 10:49:16 --> Call to a member function result() on bool
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(25): App\Models\Mregister->register_user('Thefik', '2b9b2c591f363d2...', 'z', 'a', '2022-06-15 10:4...')
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-15 10:49:37 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 10:49:37 --> Call to a member function result() on bool
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 10:51:35 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 10:51:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 10:53:20 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 10:53:20 --> Trying to get property 'getResult' of non-object
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-15 10:53:28 --> Unknown column 'passowrd' in 'field list'
+ERROR - 2022-06-15 10:53:45 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 10:53:45 --> Call to a member function result() on bool
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 10:53:57 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 10:53:57 --> Call to a member function result() on bool
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 10:55:36 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 10:55:36 --> Undefined property: App\Controllers\Home::$db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-15 10:55:45 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 10:55:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::_error_message()
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(25): App\Models\Mregister->register_user('Thefik', '2b9b2c591f363d2...', 'z', 'a', '2022-06-15 10:5...')
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-15 10:59:28 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 10:59:28 --> Undefined property: App\Controllers\Home::$db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-15 11:00:52 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 11:00:52 --> Undefined property: App\Controllers\Home::$db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-15 11:01:02 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 11:01:02 --> Undefined property: App\Controllers\Home::$db
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-15 11:01:16 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 11:01:16 --> Call to a member function getMessage() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 11:01:32 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 11:01:32 --> Call to a member function _error_message() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 11:01:46 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 11:01:46 --> Call to a member function _error_number() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 11:03:37 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 11:03:37 --> Call to a member function _error_number() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 11:03:50 --> Unknown column 'passowrd' in 'field list'
+ERROR - 2022-06-15 11:03:57 --> Unknown column 'passowrd' in 'field list'
+ERROR - 2022-06-15 11:04:17 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 11:04:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 11:05:10 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 11:05:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 11:10:05 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 11:10:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 12:13:31 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 12:13:31 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 12:13:48 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 12:13:48 --> Call to a member function result() on bool
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(27): App\Models\Mregister->register_user('thefik', '4297f44b1395523...', 'z', 'a', '2022-06-15 12:1...')
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-15 12:14:13 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 12:14:13 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 12:14:24 --> Unknown column 'passowrd' in 'field list'
+ERROR - 2022-06-15 12:14:46 --> Unknown column 'passowrd' in 'field list'
+ERROR - 2022-06-15 12:15:41 --> Unknown column 'passowrd' in 'field list'
+ERROR - 2022-06-15 12:16:05 --> Unknown column 'passowrd' in 'field list'
+ERROR - 2022-06-15 12:16:31 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 12:17:57 --> Class 'App\Controllers\RegisterModel' not found
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-15 12:18:08 --> Unknown column 'passowrd' in 'field list'
+ERROR - 2022-06-15 12:18:32 --> Unknown column 'passowrd' in 'field list'
+ERROR - 2022-06-15 12:22:34 --> Unknown column 'passowrd' in 'field list'
+CRITICAL - 2022-06-15 12:23:29 --> Undefined variable: auth
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 12:23:36 --> Undefined variable: password
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 12:23:42 --> Undefined variable: password
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 12:23:51 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type array or null, string given, called in C:\xampp\htdocs\fikri\cspb\app\Models\RegisterModel.php on line 17
+#0 C:\xampp\htdocs\fikri\cspb\app\Models\RegisterModel.php(17): CodeIgniter\Database\BaseBuilder->insert('thefik')
+#1 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(36): App\Models\RegisterModel->register_user('thefik', '4297f44b1395523...', 'z', 'a', '2022-06-15 12:2...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-15 17:49:06 --> Undefined property: App\Controllers\Home::$session
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 17:50:07 --> Undefined property: App\Controllers\Home::$session
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 17:50:15 --> Undefined property: App\Controllers\Home::$session
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 17:53:00 --> Undefined property: App\Controllers\Home::$session
+#0 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

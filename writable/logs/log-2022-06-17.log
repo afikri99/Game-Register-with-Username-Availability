@@ -1,0 +1,26 @@
+ERROR - 2022-06-17 09:04:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-17 09:04:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('select lower(au...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-06-17 09:05:00 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-17 09:05:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fikri\cspb\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('select lower(au...')
+#2 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->checkuser()
+#3 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fikri\cspb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\fikri\cspb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
