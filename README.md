@@ -1,4 +1,4 @@
-# cspb
+# Register Account with Username Availability
 [EN]
 <h1>Register Account Counter-Strike:Point Blank (from Counter Strike Federation)</h1>
 <b>⚠️ONLY WEB TEMPLATE WITH DUMMY DATABASE & SAMPLE ACCOUNT⚠️</b>
